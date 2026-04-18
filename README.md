@@ -154,11 +154,21 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 ✔ Privacy-aware voice cloning
 ✔ Prevents misuse of protected voices
-✔ Works locally on Mac (MPS/CPU)
+✔ Works locally on Mac (MPS/CPU)https://github.com/M22AIE243/SU_project/blob/main/README.md
 ✔ Fully reproducible pipeline
 
 
+## 🔷 Flow Diagram
 
+```mermaid
+flowchart TD
+A[Input Audio wav] --> B[Feature Extraction - ECAPA Embedding]
+B --> C[Compare with Stored Embeddings - Protected and Normal]
+C --> D[Compute Max Similarity with Protected Speakers]
+D --> E{Similarity >= 0.4}
+E -->|YES| F[BLOCKED - No Speech Generation]
+E -->|NO| G[XTTS Voice Cloning]
+G --> H[Generate output4.wav]
 
 
 
