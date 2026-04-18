@@ -156,9 +156,6 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 ✔ Prevents misuse of protected voices
 ✔ Works locally on Mac (MPS/CPU)
 ✔ Fully reproducible pipeline
-
----
-
                 ┌──────────────────────┐
                 │   Input Audio (.wav) │
                 └──────────┬───────────┘
