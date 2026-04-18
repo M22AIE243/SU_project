@@ -159,23 +159,17 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 
 
-##  Flow Diagram
+
+## 🔷 Flow Diagram
 
 ```mermaid
 flowchart TD
-
 A[Input Audio wav] --> B[Feature Extraction - ECAPA Embedding]
-
 B --> C[Compare with Stored Embeddings - Protected and Normal]
-
 C --> D[Compute Max Similarity with Protected Speakers]
-
 D --> E{Similarity >= 0.4}
-
 E -->|YES| F[BLOCKED - No Speech Generation]
-
 E -->|NO| G[XTTS Voice Cloning]
-
 G --> H[Generate output4.wav]
 
 
