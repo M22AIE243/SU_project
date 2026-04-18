@@ -156,46 +156,26 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 ✔ Prevents misuse of protected voices
 ✔ Works locally on Mac (MPS/CPU)
 ✔ Fully reproducible pipeline
-                ┌──────────────────────┐
-                │   Input Audio (.wav) │
-                └──────────┬───────────┘
-                           │
-                           ▼
-                ┌──────────────────────┐
-                │  Feature Extraction  │
-                │  (ECAPA Embedding)   │
-                └──────────┬───────────┘
-                           │
-                           ▼
-                ┌──────────────────────┐
-                │ Compare with Stored  │
-                │  Embeddings (DB)     │
-                └──────────┬───────────┘
-                           │
-                           ▼
-                ┌──────────────────────┐
-                │ Max Similarity with  │
-                │ Protected Speakers   │
-                └──────────┬───────────┘
-                           │
-         ┌─────────────────┴─────────────────┐
-         │                                   │
-         ▼                                   ▼
- ┌───────────────┐                 ┌────────────────┐
- │ Similarity ≥  │                 │ Similarity <   │
- │ 0.4           │                 │ 0.4            │
- └──────┬────────┘                 └──────┬─────────┘
-        │                                 │
-        ▼                                 ▼
- ┌───────────────┐                ┌────────────────────┐
- │ 🚫 BLOCKED     │                │ XTTS Voice Cloning │
- │ No Generation │                │ Generate Speech    │
- └───────────────┘                └─────────┬──────────┘
-                                            │
-                                            ▼
-                                   ┌────────────────┐
-                                   │ output4.wav    │
-                                   └────────────────┘
+
+
+   ## 🔷 Flow Diagram
+
+```mermaid
+flowchart TD
+
+A[Input Audio (.wav)] --> B[Feature Extraction<br/>ECAPA Embedding]
+
+B --> C[Compare with Stored Embeddings<br/>(Protected + Normal)]
+
+C --> D[Compute Max Similarity<br/>with Protected Speakers]
+
+D --> E{Similarity ≥ 0.4 ?}
+
+E -->|YES| F[🚫 BLOCKED<br/>No Speech Generation]
+
+E -->|NO| G[XTTS Voice Cloning]
+
+G --> H[Generate output4.wav]
 
 
 
