@@ -158,20 +158,21 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 ✔ Fully reproducible pipeline
 
 
-   ## 🔷 Flow Diagram
+
+##  Flow Diagram
 
 ```mermaid
 flowchart TD
 
-A[Input Audio (.wav)] --> B[Feature Extraction<br/>ECAPA Embedding]
+A[Input Audio wav] --> B[Feature Extraction - ECAPA Embedding]
 
-B --> C[Compare with Stored Embeddings<br/>(Protected + Normal)]
+B --> C[Compare with Stored Embeddings - Protected and Normal]
 
-C --> D[Compute Max Similarity<br/>with Protected Speakers]
+C --> D[Compute Max Similarity with Protected Speakers]
 
-D --> E{Similarity ≥ 0.4 ?}
+D --> E{Similarity >= 0.4}
 
-E -->|YES| F[🚫 BLOCKED<br/>No Speech Generation]
+E -->|YES| F[BLOCKED - No Speech Generation]
 
 E -->|NO| G[XTTS Voice Cloning]
 
