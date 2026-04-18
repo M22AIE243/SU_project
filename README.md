@@ -158,30 +158,25 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 ✔ Fully reproducible pipeline
 
 
-### System Architecture: Voice Cloning Guardrail
-
-```mermaid
 flowchart TD
     A[Input Audio .wav] --> B[Feature Extraction: ECAPA-TDNN]
     B --> C[Compute Cosine Similarity]
     
-    subgraph Storage
-    D[(Protected Speaker Embeddings)]
+    subgraph Database
+    D[(Protected Embeddings)]
     end
     
-    D <-.-> C
+    D --- C
     C --> E{Similarity >= 0.4?}
     
-    E -- YES --> F[Status: BLOCKED]
-    E -- NO --> G[XTTS Voice Cloning Engine]
+    E -- YES --> F[BLOCKED]
+    E -- NO --> G[XTTS Voice Cloning]
     
-    F --> H[No Speech Generated]
-    G --> I[Generate output4.wav]
+    F --> H[Access Denied]
+    G --> I[Output: output4.wav]
 
-    %% Styling
-    style F fill:#ff9999,stroke:#333,stroke-width:2px
-    style G fill:#99ff99,stroke:#333,stroke-width:2px
-    style D fill:#f9f,stroke:#333,stroke-dasharray: 5 5
+    style F fill:#f66,stroke:#333
+    style G fill:#6f6,stroke:#333
 
 
 
