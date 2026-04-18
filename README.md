@@ -159,8 +159,39 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 <img width="1004" height="1352" alt="image" src="https://github.com/user-attachments/assets/a14257ec-fcfe-4bcb-b9a5-4a029aaa2392" />
 
+#output:
+#(xtts) kumarroushan@kumars-MacBook-Air genai % python AudioGenPipeline.py 
+Loading Speaker Model...
+hyperparams.yaml: 1.92kB [00:00, 2.08MB/s]
+embedding_model.ckpt: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 83.3M/83.3M [00:04<00:00, 18.9MB/s]
+mean_var_norm_emb.ckpt: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.92k/1.92k [00:00<00:00, 8.25MB/s]
+classifier.ckpt: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.53M/5.53M [00:00<00:00, 9.15MB/s]
+label_encoder.txt: 129kB [00:00, 21.5MB/s]
 
+Loading XTTS...
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
 
+Loading datasets...
+Max protected similarity: 0.9829
+🚫 BLOCKED
+❌ Generation skipped
+#(xtts) kumarroushan@kumars-MacBook-Air genai % python AudioGenPipeline.py
+Loading Speaker Model...
+
+Loading XTTS...
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+
+Loading datasets...
+Max protected similarity: 0.1077
+✅ ALLOWED
+🎤 Generating speech...
+ > Text splitted to sentences.
+['This is a privacy aware voice cloning system.']
+ > Processing time: 12.82853388786316
+ > Real-time factor: 3.174595666046223
+✅ Generated: output4.wav
 
 
 
