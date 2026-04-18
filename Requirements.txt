@@ -1,0 +1,5 @@
+pip install torch==2.4.0 torchaudio==2.4.0
+pip install transformers==4.38.2
+pip install TTS==0.22.0
+pip install speechbrain faiss-cpu librosa soundfile scikit-learn
+pip install setuptools==68.2.2
