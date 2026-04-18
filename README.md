@@ -159,8 +159,7 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 <img width="1004" height="1352" alt="image" src="https://github.com/user-attachments/assets/a14257ec-fcfe-4bcb-b9a5-4a029aaa2392" />
 
-# OUTPUT Case 1 :
-
+# OUTPUT Case 1: When generation of Audio not allowed
 #(xtts) kumarroushan@kumars-MacBook-Air genai % python AudioGenPipeline.py 
 Loading Speaker Model...
 hyperparams.yaml: 1.92kB [00:00, 2.08MB/s]
@@ -178,7 +177,7 @@ Max protected similarity: 0.9829
 🚫 BLOCKED
 ❌ Generation skipped
 
-# OUTPUT Case 2:
+# OUTPUT Case 2: When generation of Audio is allowed
 
 #(xtts) kumarroushan@kumars-MacBook-Air genai % python AudioGenPipeline.py
 Loading Speaker Model...
