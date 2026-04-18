@@ -157,26 +157,7 @@ DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 ✔ Works locally on Mac (MPS/CPU)https://github.com/M22AIE243/SU_project/blob/main/README.md
 ✔ Fully reproducible pipeline
 
-
-flowchart TD
-    A[Input Audio .wav] --> B[Feature Extraction: ECAPA-TDNN]
-    B --> C[Compute Cosine Similarity]
-    
-    subgraph Database
-    D[(Protected Embeddings)]
-    end
-    
-    D --- C
-    C --> E{Similarity >= 0.4?}
-    
-    E -- YES --> F[BLOCKED]
-    E -- NO --> G[XTTS Voice Cloning]
-    
-    F --> H[Access Denied]
-    G --> I[Output: output4.wav]
-
-    style F fill:#f66,stroke:#333
-    style G fill:#6f6,stroke:#333
+<img width="1004" height="1352" alt="image" src="https://github.com/user-attachments/assets/a14257ec-fcfe-4bcb-b9a5-4a029aaa2392" />
 
 
 
