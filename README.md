@@ -1,4 +1,3 @@
-# SU_project
 #  Teacher-Guided Unlearning for Speaker Identity in Zero-Shot Text-to-Speech Systems
 
 High Level Design:
