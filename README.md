@@ -1,5 +1,9 @@
 # SU_project
-#  Privacy-Aware Voice Cloning Pipeline (XTTS + Speaker Verification)
+#  Teacher-Guided Unlearning for Speaker Identity in Zero-Shot Text-to-Speech Systems
+
+High Level Design:
+<img width="1011" height="1088" alt="image" src="https://github.com/user-attachments/assets/df981591-60ff-4b2b-83ef-192cc7dc97e9" />
+
 
 This project implements a **privacy-preserving voice cloning system** where:
 
