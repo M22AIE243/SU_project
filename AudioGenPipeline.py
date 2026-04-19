@@ -8,13 +8,13 @@ from speechbrain.inference.speaker import SpeakerRecognition
 from TTS.api import TTS
 
 # =========================
-# 🔧 CONFIG
+#  CONFIG
 # =========================
 THRESHOLD = 0.4
 DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
 # =========================
-# 🎤 LOAD MODELS
+#  LOAD MODELS
 # =========================
 print("Loading Speaker Model...")
 speechbrain_model = SpeakerRecognition.from_hparams(
@@ -26,7 +26,7 @@ print("Loading XTTS...")
 tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2").to(DEVICE)
 
 # =========================
-# 🎧 EMBEDDING FUNCTION
+#  EMBEDDING FUNCTION
 # =========================
 def get_embedding(audio_path):
     signal, sr = librosa.load(audio_path, sr=16000)
@@ -41,7 +41,7 @@ def get_embedding(audio_path):
     return emb
 
 # =========================
-# 📁 LOAD DATASETS
+#  LOAD DATASETS
 # =========================
 def load_audio_folder(folder_path, is_protected):
     embeddings = []
@@ -71,7 +71,7 @@ embeddings = np.array(protected_embs + normal_embs).astype("float32")
 metadata = protected_meta + normal_meta
 
 # =========================
-# 🔍 CHECK FUNCTION
+#  CHECK FUNCTION
 # =========================
 def check_audio(test_audio_path):
     test_emb = get_embedding(test_audio_path).reshape(1, -1)
@@ -90,7 +90,7 @@ def check_audio(test_audio_path):
         print("🚫 BLOCKED")
         return "BLOCK"
     else:
-        print("✅ ALLOWED")
+        print(" ALLOWED")
         return "ALLOW"
 
 # =========================
@@ -100,10 +100,10 @@ def generate_if_allowed(test_audio, text):
     decision = check_audio(test_audio)
 
     if decision == "BLOCK":
-        print("❌ Generation skipped")
+        print(" Generation skipped")
         return
 
-    print("🎤 Generating speech...")
+    print(" Generating speech...")
 
     output_file = "output4.wav"
 
@@ -115,10 +115,10 @@ def generate_if_allowed(test_audio, text):
             file_path=output_file
         )
 
-    print(f"✅ Generated: {output_file}")
+    print(f" Generated: {output_file}")
 
 # =========================
-# 🚀 TEST
+#  TEST
 # =========================
 generate_if_allowed(
     #test_audio="clean_speaker.wav",
