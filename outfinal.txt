@@ -1,0 +1,1370 @@
+Loading Speaker Model...
+Loading XTTS...
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+
+Loading datasets...
+Processing: Amitabh_bacchan2.wav
+Processing: Amitabh_bacchan3.wav
+Processing: Amitabh_bacchan1.wav
+Processing: SRK2.wav
+Processing: Amitabh_bacchan4.wav
+Processing: salman1.wav
+Processing: Audio8.wav
+Processing: Audio2.wav
+Processing: Audio1.wav
+Processing: Audio5.wav
+Processing: Audio6.wav
+
+Total embeddings: 11
+✅ FAISS index built
+
+📂 Processing folder: input_voice
+
+==============================
+🎧 Processing: wanted.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5679
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4423
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4344
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4334
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1645
+Protected: True
+------
+
+Max protected similarity: 0.5679
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: sultan2.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: Audio9.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Audio5.wav
+Similarity: 0.7343
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.2950
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1522
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.1241
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1162
+Protected: True
+------
+
+Max protected similarity: 0.2950
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: Audio3.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Audio2.wav
+Similarity: 0.7540
+Protected: False
+------
+Matched: Audio1.wav
+Similarity: 0.6824
+Protected: False
+------
+Matched: Audio8.wav
+Similarity: 0.1580
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1087
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.0869
+Protected: False
+------
+
+Max protected similarity: 0.1087
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: Audio10.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Audio8.wav
+Similarity: 1.0000
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.2925
+Protected: False
+------
+Matched: Audio6.wav
+Similarity: 0.1701
+Protected: False
+------
+Matched: SRK2.wav
+Similarity: 0.1337
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1258
+Protected: True
+------
+
+Max protected similarity: 0.1337
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: clean_speaker.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.9829
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4240
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3804
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.2500
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1795
+Protected: True
+------
+
+Max protected similarity: 0.9829
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: SRK.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.6463
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2854
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1937
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.1886
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1834
+Protected: True
+------
+
+Max protected similarity: 0.6463
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: AmitTest.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5307
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4872
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4821
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3274
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3112
+Protected: True
+------
+
+Max protected similarity: 0.5307
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: Salman4.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4521
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3377
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2816
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1970
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1564
+Protected: True
+------
+
+Max protected similarity: 0.4521
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: salman_kapil2.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: Amitabh_bacchan5.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4230
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3867
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3703
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2082
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2033
+Protected: False
+------
+
+Max protected similarity: 0.4230
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: Salman3.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4987
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.2943
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.0992
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.0963
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.0808
+Protected: False
+------
+
+Max protected similarity: 0.4987
+✅ ALLOWED
+✅ ALLOWED
+⏩ Generation skipped (disabled)
+
+==============================
+🎧 Processing: salman_kapil1.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 1.0000
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2340
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1797
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1505
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1339
+Protected: True
+------
+
+Max protected similarity: 1.0000
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: AmitabhRecent.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5777
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4002
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3781
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3745
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2916
+Protected: True
+------
+
+Max protected similarity: 0.5777
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+==============================
+🎧 Processing: Salman2.wav
+==============================
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5223
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3560
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2470
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2386
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2366
+Protected: False
+------
+
+Max protected similarity: 0.5223
+🚫 BLOCKED
+❌ Skipped (Protected Voice)
+
+📊 Evaluating Model (Threshold = 0.5)
+
+------------------------------
+🎧 File: wanted.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5679
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4423
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4344
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4334
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1645
+Protected: True
+------
+
+Max protected similarity: 0.5679
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: sultan2.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio9.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio5.wav
+Similarity: 0.7343
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.2950
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1522
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.1241
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1162
+Protected: True
+------
+
+Max protected similarity: 0.2950
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio3.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio2.wav
+Similarity: 0.7540
+Protected: False
+------
+Matched: Audio1.wav
+Similarity: 0.6824
+Protected: False
+------
+Matched: Audio8.wav
+Similarity: 0.1580
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1087
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.0869
+Protected: False
+------
+
+Max protected similarity: 0.1087
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio10.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio8.wav
+Similarity: 1.0000
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.2925
+Protected: False
+------
+Matched: Audio6.wav
+Similarity: 0.1701
+Protected: False
+------
+Matched: SRK2.wav
+Similarity: 0.1337
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1258
+Protected: True
+------
+
+Max protected similarity: 0.1337
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: clean_speaker.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.9829
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4240
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3804
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.2500
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1795
+Protected: True
+------
+
+Max protected similarity: 0.9829
+🚫 BLOCKED
+Prediction: BLOCK | Actual: ALLOW
+
+------------------------------
+🎧 File: SRK.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.6463
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2854
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1937
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.1886
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1834
+Protected: True
+------
+
+Max protected similarity: 0.6463
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: AmitTest.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5307
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4872
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4821
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3274
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3112
+Protected: True
+------
+
+Max protected similarity: 0.5307
+🚫 BLOCKED
+Prediction: BLOCK | Actual: ALLOW
+
+------------------------------
+🎧 File: Salman4.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4521
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3377
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2816
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1970
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1564
+Protected: True
+------
+
+Max protected similarity: 0.4521
+✅ ALLOWED
+Prediction: ALLOW | Actual: BLOCK
+
+------------------------------
+🎧 File: salman_kapil2.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+✅ ALLOWED
+Prediction: ALLOW | Actual: BLOCK
+
+------------------------------
+🎧 File: Amitabh_bacchan5.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4230
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3867
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3703
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2082
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2033
+Protected: False
+------
+
+Max protected similarity: 0.4230
+✅ ALLOWED
+Prediction: ALLOW | Actual: BLOCK
+
+------------------------------
+🎧 File: Salman3.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4987
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.2943
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.0992
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.0963
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.0808
+Protected: False
+------
+
+Max protected similarity: 0.4987
+✅ ALLOWED
+Prediction: ALLOW | Actual: BLOCK
+
+------------------------------
+🎧 File: salman_kapil1.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 1.0000
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2340
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1797
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1505
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1339
+Protected: True
+------
+
+Max protected similarity: 1.0000
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: AmitabhRecent.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5777
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4002
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3781
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3745
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2916
+Protected: True
+------
+
+Max protected similarity: 0.5777
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: Salman2.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5223
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3560
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2470
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2386
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2366
+Protected: False
+------
+
+Max protected similarity: 0.5223
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+==============================
+📈 FINAL METRICS
+==============================
+TP: 5, TN: 4, FP: 2, FN: 4
+Accuracy : 0.6000
+Precision: 0.7143
+Recall   : 0.5556
+
+📊 Evaluating Model (Threshold = 0.4)
+
+------------------------------
+🎧 File: wanted.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5679
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4423
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4344
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4334
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1645
+Protected: True
+------
+
+Max protected similarity: 0.5679
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: sultan2.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+🚫 BLOCKED
+Prediction: BLOCK | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio9.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio5.wav
+Similarity: 0.7343
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.2950
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1522
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.1241
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1162
+Protected: True
+------
+
+Max protected similarity: 0.2950
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio3.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio2.wav
+Similarity: 0.7540
+Protected: False
+------
+Matched: Audio1.wav
+Similarity: 0.6824
+Protected: False
+------
+Matched: Audio8.wav
+Similarity: 0.1580
+Protected: False
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1087
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.0869
+Protected: False
+------
+
+Max protected similarity: 0.1087
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: Audio10.wav
+
+🔍 FAISS Similarity Results:
+Matched: Audio8.wav
+Similarity: 1.0000
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.2925
+Protected: False
+------
+Matched: Audio6.wav
+Similarity: 0.1701
+Protected: False
+------
+Matched: SRK2.wav
+Similarity: 0.1337
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1258
+Protected: True
+------
+
+Max protected similarity: 0.1337
+✅ ALLOWED
+Prediction: ALLOW | Actual: ALLOW
+
+------------------------------
+🎧 File: clean_speaker.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.9829
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.4240
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3804
+Protected: True
+------
+Matched: Audio5.wav
+Similarity: 0.2500
+Protected: False
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1795
+Protected: True
+------
+
+Max protected similarity: 0.9829
+🚫 BLOCKED
+Prediction: BLOCK | Actual: ALLOW
+
+------------------------------
+🎧 File: SRK.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.6463
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2854
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1937
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.1886
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1834
+Protected: True
+------
+
+Max protected similarity: 0.6463
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: AmitTest.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5307
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4872
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4821
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3274
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3112
+Protected: True
+------
+
+Max protected similarity: 0.5307
+🚫 BLOCKED
+Prediction: BLOCK | Actual: ALLOW
+
+------------------------------
+🎧 File: Salman4.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4521
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.3377
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2816
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1970
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1564
+Protected: True
+------
+
+Max protected similarity: 0.4521
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: salman_kapil2.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4382
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3431
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2637
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2398
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.2255
+Protected: True
+------
+
+Max protected similarity: 0.4382
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: Amitabh_bacchan5.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.4230
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3867
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.3703
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2082
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2033
+Protected: False
+------
+
+Max protected similarity: 0.4230
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: Salman3.wav
+
+🔍 FAISS Similarity Results:
+Matched: SRK2.wav
+Similarity: 0.4987
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.2943
+Protected: True
+------
+Matched: salman1.wav
+Similarity: 0.0992
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.0963
+Protected: False
+------
+Matched: Audio5.wav
+Similarity: 0.0808
+Protected: False
+------
+
+Max protected similarity: 0.4987
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: salman_kapil1.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 1.0000
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.2340
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.1797
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.1505
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.1339
+Protected: True
+------
+
+Max protected similarity: 1.0000
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: AmitabhRecent.wav
+
+🔍 FAISS Similarity Results:
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.5777
+Protected: True
+------
+Matched: Amitabh_bacchan2.wav
+Similarity: 0.4002
+Protected: True
+------
+Matched: Amitabh_bacchan4.wav
+Similarity: 0.3781
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.3745
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2916
+Protected: True
+------
+
+Max protected similarity: 0.5777
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+------------------------------
+🎧 File: Salman2.wav
+
+🔍 FAISS Similarity Results:
+Matched: salman1.wav
+Similarity: 0.5223
+Protected: True
+------
+Matched: Amitabh_bacchan3.wav
+Similarity: 0.3560
+Protected: True
+------
+Matched: Amitabh_bacchan1.wav
+Similarity: 0.2470
+Protected: True
+------
+Matched: SRK2.wav
+Similarity: 0.2386
+Protected: True
+------
+Matched: Audio8.wav
+Similarity: 0.2366
+Protected: False
+------
+
+Max protected similarity: 0.5223
+🚫 BLOCKED
+Prediction: BLOCK | Actual: BLOCK
+
+==============================
+📈 FINAL METRICS
+==============================
+TP: 9, TN: 3, FP: 3, FN: 0
+Accuracy : 0.8000
+Precision: 0.7500
+Recall   : 1.0000
