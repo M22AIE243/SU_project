@@ -196,10 +196,10 @@ Max protected similarity: 0.1077
 
 #  Future Improvements
 
-* Replace loop with **FAISS ANN search**
+
 * Improve voice quality (denoise + trim)
 * Add UI (Streamlit demo)
-* Dynamic threshold tuning
+
 
 ---
 
