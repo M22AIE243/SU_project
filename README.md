@@ -34,7 +34,7 @@ pip install setuptools==68.2.2
 
 ---
 
-## ✅ Step 3: Install FFmpeg (for audio conversion)
+##  Step 3: Install FFmpeg (for audio conversion)
 
 ```bash
 brew install ffmpeg
@@ -42,7 +42,7 @@ brew install ffmpeg
 
 ---
 
-# 🎧 2. Prepare Dataset
+#  2. Prepare Dataset
 
 ## Folder Structure
 
@@ -63,7 +63,7 @@ project/
 
 ---
 
-## 🔄 Convert `.m4a` → `.wav` (if needed)
+##  Convert `.m4a` → `.wav` (if needed)
 
 ```bash
 for f in *.m4a; do 
@@ -128,7 +128,7 @@ ALLOWED
 
 ---
 
-# ⚙️ 6. Evaluation
+#  6. Evaluation
 Threshold = 0.5
 TP: 5, TN: 4, FP: 2, FN: 4
 Accuracy : 0.60
@@ -170,8 +170,8 @@ Loading XTTS...
 
 Loading datasets...
 Max protected similarity: 0.9829
-🚫 BLOCKED
-❌ Generation skipped
+ BLOCKED
+ Generation skipped
 
 # OUTPUT Case 2: When generation of Audio is allowed
 
@@ -184,13 +184,13 @@ Loading XTTS...
 
 Loading datasets...
 Max protected similarity: 0.1077
-✅ ALLOWED
-🎤 Generating speech...
+ ALLOWED
+ Generating speech...
  > Text splitted to sentences.
 ['This is a privacy aware voice cloning system.']
  > Processing time: 12.82853388786316
  > Real-time factor: 3.174595666046223
-✅ Generated: output4.wav
+ Generated: output4.wav
 
 
 
