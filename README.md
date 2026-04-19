@@ -128,30 +128,23 @@ ALLOWED
 
 ---
 
-# ⚙️ 6. Configuration
+# ⚙️ 6. Evaluation
+Threshold = 0.5
+TP: 5, TN: 4, FP: 2, FN: 4
+Accuracy : 0.60
+Precision: 0.71
+Recall   : 0.55
 
-```python
-THRESHOLD = 0.4
-DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
-```
-
----
-
-#  Notes
-
-* Use **16kHz mono WAV** audio for best results
-* Keep speaker audio **3–6 seconds**
-* Ignore `FutureWarning` messages (safe)
-* First run will download models (~2GB)
+Threshold = 0.4
+TP: 9, TN: 3, FP: 3, FN: 0
+Accuracy : 0.80
+Precision: 0.75
+Recall   : 1.00
 
 ---
 
 #  Final Output
-
-* `output4.wav` → Generated speech (if allowed)
-* Console logs → Similarity + decision
-
----
+outfinal.txt
 
 #  Summary
 
