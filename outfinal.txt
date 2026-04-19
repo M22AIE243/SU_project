@@ -17,15 +17,15 @@ Processing: Audio5.wav
 Processing: Audio6.wav
 
 Total embeddings: 11
-✅ FAISS index built
+ FAISS index built
 
-📂 Processing folder: input_voice
+ Processing folder: input_voice
 
 ==============================
-🎧 Processing: wanted.wav
+ Processing: wanted.wav
 ==============================
 
-🔍 FAISS Similarity Results:
+ FAISS Similarity Results:
 Matched: salman1.wav
 Similarity: 0.5679
 Protected: True
@@ -78,9 +78,9 @@ Protected: True
 ------
 
 Max protected similarity: 0.4382
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: Audio9.wav
@@ -109,9 +109,9 @@ Protected: True
 ------
 
 Max protected similarity: 0.2950
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: Audio3.wav
@@ -140,9 +140,9 @@ Protected: False
 ------
 
 Max protected similarity: 0.1087
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: Audio10.wav
@@ -171,9 +171,9 @@ Protected: True
 ------
 
 Max protected similarity: 0.1337
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: clean_speaker.wav
@@ -292,9 +292,9 @@ Protected: True
 ------
 
 Max protected similarity: 0.4521
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: salman_kapil2.wav
@@ -323,9 +323,9 @@ Protected: True
 ------
 
 Max protected similarity: 0.4382
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: Amitabh_bacchan5.wav
@@ -354,9 +354,9 @@ Protected: False
 ------
 
 Max protected similarity: 0.4230
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: Salman3.wav
@@ -385,9 +385,9 @@ Protected: False
 ------
 
 Max protected similarity: 0.4987
-✅ ALLOWED
-✅ ALLOWED
-⏩ Generation skipped (disabled)
+ ALLOWED
+ ALLOWED
+ Generation skipped (disabled)
 
 ==============================
 🎧 Processing: salman_kapil1.wav
@@ -536,7 +536,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.4382
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -565,7 +565,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.2950
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -594,7 +594,7 @@ Protected: False
 ------
 
 Max protected similarity: 0.1087
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -623,7 +623,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.1337
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -739,7 +739,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.4521
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: BLOCK
 
 ------------------------------
@@ -768,7 +768,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.4382
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: BLOCK
 
 ------------------------------
@@ -797,7 +797,7 @@ Protected: False
 ------
 
 Max protected similarity: 0.4230
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: BLOCK
 
 ------------------------------
@@ -826,7 +826,7 @@ Protected: False
 ------
 
 Max protected similarity: 0.4987
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: BLOCK
 
 ------------------------------
@@ -1010,7 +1010,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.2950
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -1039,7 +1039,7 @@ Protected: False
 ------
 
 Max protected similarity: 0.1087
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -1068,7 +1068,7 @@ Protected: True
 ------
 
 Max protected similarity: 0.1337
-✅ ALLOWED
+ ALLOWED
 Prediction: ALLOW | Actual: ALLOW
 
 ------------------------------
@@ -1335,7 +1335,7 @@ Prediction: BLOCK | Actual: BLOCK
 ------------------------------
 🎧 File: Salman2.wav
 
-🔍 FAISS Similarity Results:
+ FAISS Similarity Results:
 Matched: salman1.wav
 Similarity: 0.5223
 Protected: True
@@ -1358,7 +1358,7 @@ Protected: False
 ------
 
 Max protected similarity: 0.5223
-🚫 BLOCKED
+BLOCKED
 Prediction: BLOCK | Actual: BLOCK
 
 ==============================
